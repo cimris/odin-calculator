@@ -1,2 +1,2 @@
-# odin-etch-a-sketch
-Project: Etch-a-Sketch from The Odin project
+# odin-calculator
+Project: Calculator from The Odin project
