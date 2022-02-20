@@ -11,4 +11,6 @@
     "four five six subtract"
     "one two three add"
     "zero zero decimal equals";
+  justify-items: center;
+  align-items: center;
 }
