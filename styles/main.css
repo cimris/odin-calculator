@@ -28,8 +28,7 @@ body {
 
 .display {
   grid-column: 2 / 5;
-  justify-self: end;
-  align-self: center;
+  place-self: stretch;
   background-color: #2c3033;
   color: #e9eaee;
 }
