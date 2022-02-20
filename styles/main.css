@@ -1,1 +1,14 @@
 /*CSS Styles*/
+/* Calculator Body */
+.calculator-container {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "number number number number"
+    "clear bracket percent divide"
+    "seven eight nine multiply"
+    "four five six subtract"
+    "one two three add"
+    "zero zero decimal equals";
+}
