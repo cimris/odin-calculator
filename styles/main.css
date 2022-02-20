@@ -11,6 +11,11 @@
     "four five six subtract"
     "one two three add"
     "zero zero decimal equals";
-  justify-items: center;
-  align-items: center;
+  width: 500px;
+  height: 750px;
+}
+
+.display {
+  grid-column-start: 2;
+  grid-column-end: 5;
 }
