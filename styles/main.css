@@ -1,4 +1,8 @@
 /*CSS Styles*/
+body {
+  background-color: #000000;
+}
+
 /* Calculator Container */
 .calculator-container {
   height: 100vh;
@@ -24,5 +28,7 @@
 
 .display {
   grid-column: 2 / 5;
-  place-self: end;
+  justify-self: end;
+  align-self: center;
+  color: white;
 }
