@@ -5,7 +5,6 @@ This project was done to meet the requirements for [Project: Calculator](https:/
 ## In Progress
 
 - Create a basic HTML calculator, including styling
-- EXTRA CREDIT: Add a “backspace” button, so the user can undo if they click the wrong number.
 - EXTRA CREDIT: Add keyboard support!
 
 ## TODO
