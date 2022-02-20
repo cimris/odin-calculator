@@ -3,8 +3,7 @@
 .calculator-container {
   height: 100vh;
   display: grid;
-  align-content: center;
-  justify-content: center;
+  place-content: center;
 }
 
 /* Calculator Body */
