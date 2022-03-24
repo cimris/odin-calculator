@@ -10,6 +10,16 @@ body {
   place-content: center;
 }
 
+/* Calculator Buttons */
+button {
+  background-color: #202125;
+  color: #e9eaee;
+}
+
+.operator {
+  color: #86b4f7;
+}
+
 /* Calculator Body */
 .calculator-body {
   display: grid;
@@ -43,14 +53,4 @@ body {
 
 .equals {
   grid-column: 4 / 5;
-}
-
-/* Calculator Buttons */
-button {
-  background-color: #202125;
-  color: #e9eaee;
-}
-
-.operator {
-  color: #86b4f7;
 }
