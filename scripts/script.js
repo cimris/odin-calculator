@@ -86,7 +86,7 @@ window.addEventListener("keydown", function (event) {
       console.log(event.key);
       break;
     default:
-      console.log("Now you've done it...");
+      console.log("You've met with a terrible fate...haven't you?");
       break;
   }
 });
