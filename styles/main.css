@@ -42,6 +42,9 @@ button {
   place-self: stretch;
   background-color: #2c3033;
   color: #e9eaee;
+  display: flex; /* Positions the Numbers */
+  align-items: center;
+  justify-content: end;
 }
 
 .zero {
