@@ -4,7 +4,6 @@ This project was done to meet the requirements for [Project: Calculator](https:/
 
 ## In Progress
 
-- Create a basic HTML calculator, including styling (font type, size)
 - EXTRA CREDIT: Add keyboard support!
 
 ## TODO
