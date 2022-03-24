@@ -4,7 +4,7 @@ This project was done to meet the requirements for [Project: Calculator](https:/
 
 ## In Progress
 
-- EXTRA CREDIT: Add keyboard support! (Partially Complete - Rudimentary Keypress Added Thus Far)
+- EXTRA CREDIT: Add keyboard support! (Partially Complete - Rudimentary Keypress Added Thus Far - Want This To Both Take Input and Make The On Screen Buttons React)
 
 ## TODO
 
