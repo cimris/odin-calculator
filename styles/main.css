@@ -45,6 +45,8 @@ button {
   display: flex; /* Positions the Numbers */
   align-items: center;
   justify-content: end;
+  padding: 20px;
+  font-size: 72px;
 }
 
 .zero {
@@ -57,4 +59,13 @@ button {
 
 .equals {
   grid-column: 4 / 5;
+}
+
+button {
+  font-size: 24px;
+  border: none;
+}
+
+button:active {
+  opacity: 75%;
 }
