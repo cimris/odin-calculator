@@ -4,7 +4,7 @@ This project was done to meet the requirements for [Project: Calculator](https:/
 
 ## In Progress
 
-- EXTRA CREDIT: Add keyboard support!
+- EXTRA CREDIT: Add keyboard support! (Partially Complete - Rudimentary Keypress Added Thus Far)
 
 ## TODO
 

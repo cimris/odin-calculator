@@ -1,4 +1,24 @@
 //My Scripts
+//Variables for Each Key
+const backspace = document.getElementById("backspace");
+const clear = document.getElementById("clear");
+const percent = document.getElementById("percent");
+const divide = document.getElementById("divide");
+const times = document.getElementById("times");
+const minus = document.getElementById("minus");
+const plus = document.getElementById("plus");
+const decimal = document.getElementById("decimal");
+const equals = document.getElementById("equals");
+const zero = document.getElementById("zero");
+const one = document.getElementById("one");
+const two = document.getElementById("two");
+const three = document.getElementById("three");
+const four = document.getElementById("four");
+const five = document.getElementById("five");
+const six = document.getElementById("six");
+const seven = document.getElementById("seven");
+const eight = document.getElementById("eight");
+const nine = document.getElementById("nine");
 //Key Press Listener
 window.addEventListener("keydown", function (event) {
   switch (event.key) {
