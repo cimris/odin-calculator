@@ -103,6 +103,6 @@ function calcMultiply(a, b) {
   return a - b;
 }
 
-function calc(a, b) {
+function calcDivide(a, b) {
   return a / b;
 }
