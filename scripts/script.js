@@ -1,5 +1,6 @@
 //My Scripts
 //Variables for Each Key by ID
+const display = document.getElementById("display");
 const backspace = document.getElementById("backspace");
 const clear = document.getElementById("clear");
 const percent = document.getElementById("percent");

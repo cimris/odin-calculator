@@ -8,6 +8,9 @@ This project was done to meet the requirements for [Project: Calculator](https:/
 
 ## TODO
 
+- Calculator Key Press Returns the Input
+- Keyboard Can Also Return the Same Input
+- These steps can be used to populate the display next
 - Create the functions that populate the display when you click the number buttons… you should be storing the ‘display value’ in a variable somewhere for use in the next step.
 - Make the calculator work! You’ll need to store the first number that is input into the calculator when a user presses an operator, and also save which operation has been chosen and then operate() on them when the user presses the “=” key.
 - You should already have the code that can populate the display, so once operate() has been called, update the display with the ‘solution’ to the operation.
