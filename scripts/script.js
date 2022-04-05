@@ -91,12 +91,22 @@ window.addEventListener("keydown", function (event) {
   }
 });
 //Functions for Add, Subtract, Multiply, and Divide
-const sum = function (array) {
+function calcAdd(array) {
   return array.reduce((total, current) => total + current, 0);
-};
+}
 
-const multiply = function (array) {
+function calcSubtract(array) {
+  return array.reduce((total, current) => total - current, 0);
+}
+
+function calcMultiply(array) {
   return array.length
     ? array.reduce((accumulator, nextItem) => accumulator * nextItem)
     : 0;
-};
+}
+
+function calcDivide(array) {
+  return array.length
+    ? array.reduce((accumulator, nextItem) => accumulator / nextItem)
+    : 0;
+}
