@@ -90,3 +90,13 @@ window.addEventListener("keydown", function (event) {
       break;
   }
 });
+//Functions for Add, Subtract, Multiply, and Divide
+const sum = function (array) {
+  return array.reduce((total, current) => total + current, 0);
+};
+
+const multiply = function (array) {
+  return array.length
+    ? array.reduce((accumulator, nextItem) => accumulator * nextItem)
+    : 0;
+};
