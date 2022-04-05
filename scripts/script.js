@@ -106,3 +106,20 @@ function calcMultiply(a, b) {
 function calcDivide(a, b) {
   return a / b;
 }
+//Operation Function
+//Operator is Taken as a String
+function operate(operator, a, b) {
+  switch (operator) {
+    case "+":
+      return calcAdd(a, b);
+    case "-":
+      return calcSubtract(a, b);
+    case "*":
+      return calcMultiply(a, b);
+    case "/":
+      if (b === 0) return "Error";
+      else return calcDivide(a, b);
+    default:
+      return null;
+  }
+}
