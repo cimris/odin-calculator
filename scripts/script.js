@@ -3,7 +3,7 @@
 let firstValue = "";
 let secondValue = "";
 //Variable to assist with getting Button Values
-const button = document.getElementsByClassName("button");
+const button = document.querySelectorAll("button");
 //Variables for Each Key by ID
 const display = document.getElementById("display"); //not set yet
 const backspace = document.getElementById("backspace"); //not set yet
@@ -43,12 +43,10 @@ minus.value = "-";
 times.value = "*";
 divide.value = "/";
 percent.value = "%";
-//Button On Click "Listener" - Still Working On You Make A Variable Dipshit
-button.addEventListener("click", buttonPress);
-
-function buttonPress() {
-  console.log("AHHHHHH");
-}
+//Button On Click "Listener" - Still Working On You
+button.addEventListener("click", function (event) {
+  console.log(event.value);
+});
 //Key Press Listener
 window.addEventListener("keydown", function (event) {
   switch (event.key) {
