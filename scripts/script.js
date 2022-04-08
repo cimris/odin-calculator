@@ -20,6 +20,24 @@ const six = document.getElementById("six");
 const seven = document.getElementById("seven");
 const eight = document.getElementById("eight");
 const nine = document.getElementById("nine");
+//Set Button Values
+zero.value = 0;
+one.value = 1;
+two.value = 2;
+three.value = 3;
+four.value = 4;
+five.value = 5;
+six.value = 6;
+seven.value = 7;
+eight.value = 8;
+nine.value = 9;
+decimal.value = ".";
+equals.value = "=";
+plus.value = "+";
+minus.value = "-";
+times.value = "*";
+divide.value = "/";
+percent.value = "%";
 //Key Press Listener
 window.addEventListener("keydown", function (event) {
   switch (event.key) {
