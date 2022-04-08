@@ -5,7 +5,7 @@ let secondValue = "";
 //Variable to assist with getting Button Values
 const button = document.querySelectorAll("button");
 //Variables for Each Key by ID
-const display = document.getElementById("display"); //not set yet
+const display = document.getElementById("display");
 const backspace = document.getElementById("backspace"); //not set yet
 const clear = document.getElementById("clear"); //not set yet
 const percent = document.getElementById("percent");
