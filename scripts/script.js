@@ -54,55 +54,55 @@ window.addEventListener("keydown", function (event) {
       console.log(event.key);
       break;
     case "%":
-      console.log(event.key);
+      console.log(percent.value);
       break;
     case "/":
-      console.log(event.key);
+      console.log(divide.value);
       break;
     case "*":
-      console.log(event.key);
+      console.log(times.value);
       break;
     case "-":
-      console.log(event.key);
+      console.log(minus.value);
       break;
     case "+":
-      console.log(event.key);
+      console.log(plus.value);
       break;
     case "=":
-      console.log(event.key);
+      console.log(equals.value);
       break;
     case ".":
-      console.log(event.key);
+      console.log(decimal.value);
       break;
     case "0":
-      console.log(event.key);
+      console.log(zero.value);
       break;
     case "1":
-      console.log(event.key);
+      console.log(one.value);
       break;
     case "2":
-      console.log(event.key);
+      console.log(two.value);
       break;
     case "3":
-      console.log(event.key);
+      console.log(three.value);
       break;
     case "4":
-      console.log(event.key);
+      console.log(four.value);
       break;
     case "5":
-      console.log(event.key);
+      console.log(five.value);
       break;
     case "6":
-      console.log(event.key);
+      console.log(six.value);
       break;
     case "7":
-      console.log(event.key);
+      console.log(seven.value);
       break;
     case "8":
-      console.log(event.key);
+      console.log(eight.value);
       break;
     case "9":
-      console.log(event.key);
+      console.log(nine.value);
       break;
     default:
       console.log("You've met with a terrible fate...haven't you?");
