@@ -8,8 +8,7 @@ This project was done to meet the requirements for [Project: Calculator](https:/
 
 ## TODO
 
-- Calculator Key Press Returns the Input
-- Keyboard Can Also Return the Same Input
+- Calculator Key Press Returns the Value
 - These steps can be used to populate the display next
 - Move to display, store as object?
 - Create the functions that populate the display when you click the number buttons… you should be storing the ‘display value’ in a variable somewhere for use in the next step.
