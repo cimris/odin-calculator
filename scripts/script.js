@@ -1,8 +1,8 @@
 //My Scripts
 //Variables for Each Key by ID
-const display = document.getElementById("display");
-const backspace = document.getElementById("backspace");
-const clear = document.getElementById("clear");
+const display = document.getElementById("display"); //not set yet
+const backspace = document.getElementById("backspace"); //not set yet
+const clear = document.getElementById("clear"); //not set yet
 const percent = document.getElementById("percent");
 const divide = document.getElementById("divide");
 const times = document.getElementById("times");
