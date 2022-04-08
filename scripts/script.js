@@ -52,7 +52,7 @@ window.addEventListener("keydown", function (event) {
       break;
     case ")":
       console.log(event.key);
-      break;
+      break; //these brackets may not be required
     case "%":
       console.log(percent.value);
       break;
@@ -125,6 +125,10 @@ function calcMultiply(a, b) {
 function calcDivide(a, b) {
   return a / b;
 }
+
+function calcPercent(a) {
+  return a / 100;
+}
 //Operation Function
 //Operator is Taken as a String
 function operate(operator, a, b) {
@@ -138,6 +142,8 @@ function operate(operator, a, b) {
     case "/":
       if (b === 0) return "Error";
       else return calcDivide(a, b);
+    case "%":
+      return calcPercent(a);
     default:
       return null;
   }
