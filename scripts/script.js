@@ -25,6 +25,9 @@ const six = document.getElementById("six");
 const seven = document.getElementById("seven");
 const eight = document.getElementById("eight");
 const nine = document.getElementById("nine");
+//Display Manipulation
+let currentDisplay = 0;
+display.textContent = currentDisplay;
 //Set Button Values
 zero.value = 0;
 one.value = 1;
@@ -45,7 +48,7 @@ divide.value = "/";
 percent.value = "%";
 //Button On Click "Listener" - Still Working On You
 button.addEventListener("click", function (event) {
-  console.log(event.value);
+  alert("Finally.");
 });
 //Key Press Listener
 window.addEventListener("keydown", function (event) {
