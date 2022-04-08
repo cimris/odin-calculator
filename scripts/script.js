@@ -1,4 +1,7 @@
 //My Scripts
+//Variables to Store for Operation
+let firstValue = "";
+let secondValue = "";
 //Variables for Each Key by ID
 const display = document.getElementById("display"); //not set yet
 const backspace = document.getElementById("backspace"); //not set yet
@@ -38,6 +41,12 @@ minus.value = "-";
 times.value = "*";
 divide.value = "/";
 percent.value = "%";
+//Button On Click "Listener"
+button.addEventListener("click", buttonPress);
+
+function buttonPress() {
+  console.log(value);
+}
 //Key Press Listener
 window.addEventListener("keydown", function (event) {
   switch (event.key) {
